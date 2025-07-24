@@ -8,9 +8,9 @@
 2. Make sure the Docker engine is running on your system.
 3. Open a terminal in the project directory and run the following commands:
     ```bash
-    docker build -t hello_spring .
+    docker compose build
     ```
     ```bash
-    docker run -p 8080:8080 hello_spring
+    docker compose up
     ```
 4. Open [http://localhost:8080](http://localhost:8080) in your browser.
